@@ -7,7 +7,7 @@
 }
 
 :root{
-    --contacts-color: #2e9244;
+    --contact-color: #757575;
 }
 
 .button:hover,
@@ -24,7 +24,39 @@
     color: var(--link-color);
 }
 
-.contacts:hover,
-.contacts:focus {
+.contact:hover,
+.contact:focus {
     color: var(--contacts-color);
+}
+
+body{
+    font-family: Roboto, Raleway;
+    color: #212121;
+}
+
+.logo:hover,
+.logo:focus
+{
+    color: var(--link-color);
+}
+
+.logo
+{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.navigation
+{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.contacts{
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: var(contact-color);
 }
