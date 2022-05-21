@@ -6,7 +6,7 @@
     --button-color: #212121;
 }
 
-:root{
+:root {
     --contact-color: #757575;
 }
 
@@ -31,71 +31,64 @@
     color: var(--contacts-color);
 }
 
-body{
+body {
     font-family: Roboto, Raleway;
     color: #212121;
 }
 
 .logo:hover,
-.logo:focus
-{
+.logo:focus {
     color: var(--link-color);
 }
 
-.logo
-{
+.logo {
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
+    font-family: Raleway;
 }
 
-.navigation
-{
+.navigation {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
 }
 
-.contacts1{
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-color: var(contact-color);
+.contacts1 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(contact-color);
 }
 
-.menu
-{
+.menu {
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
 }
 
-.signedphotos h2
-{
+.signedphotos h2 {
     font-size: 18px;
     line-height: 36px;
     font-weight: 700;
 }
 
-.signedphotos span
-{
+.signedphotos span {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px
 }
 
-address
-{
+address {
     line-height: 24px;
     font-size: 14px;
     font-weight: 400;
 }
 
-.contacts2
-{
+.contacts2 {
     line-height: 24px;
-        font-size: 14px;
-        font-weight: 400;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .contacts1 {
