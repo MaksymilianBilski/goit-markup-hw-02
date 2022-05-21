@@ -1,8 +1,9 @@
-button:hover
+.button:hover
 {
     color: blue,
 }
-button:focus
+
+.button:focus
 {
     color: orange;
 }
