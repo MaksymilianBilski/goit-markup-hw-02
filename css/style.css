@@ -1,19 +1,30 @@
-.button:hover
-{
-    color: blue,
+:root {
+    --link-color: #2196F3;
 }
 
-.button:focus
-{
-    color: orange;
+:root {
+    --button-color: #212121;
 }
 
-.link
-{
-    color: yellow;
+:root{
+    --contacts-color: #2e9244;
 }
 
-.link:hover
-{
-    color: violet;
+.button:hover,
+.button:focus {
+    color: var(--button-color);
+}
+
+.button1:hover {
+    color: #ffffff;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--link-color);
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--contacts-color);
 }
