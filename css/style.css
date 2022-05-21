@@ -61,6 +61,13 @@ body {
     color: var(contact-color);
 }
 
+.contacts2 {
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(contact-color);
+}
+
 .menu {
     font-weight: 500;
     font-size: 16px;
@@ -81,18 +88,6 @@ body {
 
 address {
     line-height: 24px;
-    font-size: 14px;
-    font-weight: 400;
-}
-
-.contacts2 {
-    line-height: 24px;
-    font-size: 14px;
-    font-weight: 400;
-}
-
-.contacts1 {
-    line-height: 16px;
     font-size: 14px;
     font-weight: 400;
 }
