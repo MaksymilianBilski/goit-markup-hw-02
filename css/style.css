@@ -44,25 +44,25 @@ body {
 .logo {
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.1923em;
     font-family: Raleway;
 }
 
 .navigation {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1428em;
 }
 
 .contacts1 {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1428em;
     color: var(contact-color);
 }
 
 .contacts2 {
-    line-height: 24px;
+    line-height: 1.7142em;
     font-size: 14px;
     font-weight: 400;
     color: var(contact-color);
@@ -71,23 +71,23 @@ body {
 .menu {
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.625em;
 }
 
 .signedphotos h2 {
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2em;
     font-weight: 700;
 }
 
 .signedphotos span {
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px
+    line-height: 1.875em;
 }
 
 address {
-    line-height: 24px;
+    line-height: 1.7142em;
     font-size: 14px;
     font-weight: 400;
 }
