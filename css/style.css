@@ -8,6 +8,11 @@
     color: orange;
 }
 
+.link
+{
+    color: yellow;
+}
+
 .link:hover
 {
     color: violet;
