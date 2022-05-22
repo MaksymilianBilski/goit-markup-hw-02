@@ -6,8 +6,12 @@
     --button-color: #212121;
 }
 
+:root {
+    --button1-color: #ffffff;
+}
+
 :root{
-    --contacts-color: green;
+    --contactshover-color: green;
 }
 
 :root {
@@ -24,7 +28,7 @@
 }
 
 .button1:hover {
-    color: #ffffff;
+    color: var(--button1-color);
     cursor: pointer;
 }
 
@@ -70,12 +74,11 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1428em;
-    color: var(--contact1-color);
 }
 
 .contact:hover,
 .contact:focus {
-    color: var(--contacts-color);
+    color: var(--contactshover-color);
 }
 
 .contact {
@@ -88,14 +91,13 @@ body {
 
 .contact-1:hover,
 .contact-1:focus {
-    color: var(--contacts-color);
+    color: var(--contactshover-color);
 }
 
 .contacts2 {
     line-height: 1.7142em;
     font-size: 14px;
     font-weight: 400;
-    color: var(contact-color);
 }
 
 .contact-2 {
@@ -104,7 +106,7 @@ body {
 
 .contact-2:hover,
 .contact-2:focus {
-    color: var(--contacts-color);
+    color: var(--contactshover-color);
 }
 
 .menu {
@@ -129,4 +131,20 @@ address {
     line-height: 1.7142em;
     font-size: 14px;
     font-weight: 400;
+}
+
+
+
+.index-h2
+{
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.1428em;
+}
+
+.index-span
+{
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7142em;
 }
