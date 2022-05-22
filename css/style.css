@@ -154,6 +154,21 @@ address {
         line-height: 1.1428em;
 }
 
+.index-h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1875em;
+            color: var(--contact1-color);
+}
+
+.index-b
+{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.1875em;
+        color:var(--button-color);
+}
+
 .index-span
 {
     font-weight: 400;
