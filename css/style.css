@@ -7,7 +7,10 @@
 }
 
 :root {
-    --contact-color: #757575;
+    --contact1-color: #757575;
+}
+:root {
+    --contact2-color: rgba(255, 255, 255, 0.6);
 }
 
 .button:hover,
@@ -39,6 +42,15 @@
 .contact:hover,
 .contact:focus {
     color: var(--contacts-color);
+}
+
+.contact-1
+{
+    color: var(--link-color)
+}
+
+.contact-2{
+    color: var(--contact2-color);
 }
 
 body {
