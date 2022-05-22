@@ -43,30 +43,6 @@
     color: var(--link-color)
 }
 
-.contact:hover,
-.contact:focus {
-    color: var(--contacts-color);
-}
-
-.contact
-{
-    color: var(--contact1-color)
-}
-
-.contact-1
-{
-    color: var(--link-color)
-}
-
-.contact-1:hover,
-.contact-1:focus {
-    color: var(--contacts-color);
-}
-
-.contact-2{
-    color: var(--contact2-color);
-}
-
 body {
     font-family: Roboto, Raleway, sans-serif;
     color: #212121;
@@ -94,7 +70,25 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1428em;
-    color: var(contact-color);
+    color: var(--contact1-color);
+}
+
+.contact:hover,
+.contact:focus {
+    color: var(--contacts-color);
+}
+
+.contact {
+    color: var(--contact1-color)
+}
+
+.contacts1 > .contact-1 {
+    color: var(--link-color)
+}
+
+.contact-1:hover,
+.contact-1:focus {
+    color: var(--contacts-color);
 }
 
 .contacts2 {
@@ -102,6 +96,10 @@ body {
     font-size: 14px;
     font-weight: 400;
     color: var(contact-color);
+}
+
+.contact-2 {
+    color: var(--contact2-color);
 }
 
 .menu {
