@@ -26,6 +26,16 @@
     color: var(--link-color);
 }
 
+.link2:hover,
+.link2:focus {
+    color: var(--link-color);
+}
+
+.link2
+{
+    color:#2196F3;
+}
+
 .contact:hover,
 .contact:focus {
     color: var(--contacts-color);
