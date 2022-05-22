@@ -102,6 +102,11 @@ body {
     color: var(--contact2-color);
 }
 
+.contact-2:hover,
+.contact-2:focus {
+    color: var(--contacts-color);
+}
+
 .menu {
     font-weight: 500;
     font-size: 16px;
