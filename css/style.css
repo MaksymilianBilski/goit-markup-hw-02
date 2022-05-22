@@ -6,6 +6,10 @@
     --button-color: #212121;
 }
 
+:root{
+    --contacts-color: green;
+}
+
 :root {
     --contact1-color: #757575;
 }
@@ -36,7 +40,7 @@
 
 .link2
 {
-    color:#2196F3;
+    color: var(--link-color)
 }
 
 .contact:hover,
@@ -44,9 +48,19 @@
     color: var(--contacts-color);
 }
 
+.contact
+{
+    color: var(--contact1-color)
+}
+
 .contact-1
 {
     color: var(--link-color)
+}
+
+.contact-1:hover,
+.contact-1:focus {
+    color: var(--contacts-color);
 }
 
 .contact-2{
