@@ -10,26 +10,47 @@
     --button1-color: #ffffff;
 }
 
-:root{
+:root {
     --contactshover-color: green;
 }
 
 :root {
     --contact1-color: #757575;
 }
+
 :root {
     --contact2-color: rgba(255, 255, 255, 0.6);
 }
 
+:root {
+    --first-bakcground-color: #F5F4FA;
+}
+
+:root {
+    --second-background-color: #2F303A;
+}
+
+
 .button:hover,
 .button:focus {
-    color: var(--button-color);
+    color: var(--button1-color);
     cursor: pointer;
 }
+
+.button
+{
+    background-color: var(--first-background-color);
+}
+
 
 .button1:hover {
     color: var(--button1-color);
     cursor: pointer;
+}
+
+.button1 {
+    background-color: var(--link-color);
+    color: var(--button1-color);
 }
 
 .link:hover,
@@ -37,14 +58,19 @@
     color: var(--link-color);
 }
 
+.link {
+    text-decoration: none;
+    color: var(--button-color)
+}
+
 .link2:hover,
 .link2:focus {
     color: var(--link-color);
 }
 
-.link2
-{
-    color: var(--link-color)
+.link2 {
+    color: var(--link-color);
+    text-decoration: none;
 }
 
 body {
@@ -62,6 +88,8 @@ body {
     font-size: 26px;
     line-height: 1.1923em;
     font-family: Raleway;
+    text-decoration: none;
+    color: var(--link-color);
 }
 
 .navigation {
@@ -78,20 +106,22 @@ body {
 
 .contact:hover,
 .contact:focus {
-    color: var(--contactshover-color);
+    color: var(--link-color);
 }
 
 .contact {
-    color: var(--contact1-color)
+    color: var(--contact1-color);
+    text-decoration: none;
 }
 
-.contacts1 > .contact-1 {
-    color: var(--link-color)
+.contact-1 {
+    text-decoration: none;
+    color: var(--link-color);
 }
 
 .contact-1:hover,
 .contact-1:focus {
-    color: var(--contactshover-color);
+    color: var(--link-color);
 }
 
 .contacts2 {
@@ -102,11 +132,12 @@ body {
 
 .contact-2 {
     color: var(--contact2-color);
+    text-decoration: none;
 }
 
 .contact-2:hover,
 .contact-2:focus {
-    color: var(--contactshover-color);
+    color: var(--link-color);
 }
 
 .menu {
@@ -133,45 +164,57 @@ address {
     font-weight: 400;
 }
 
-.index-h1
-{
-        font-weight: 700;
-        font-size: 44px;
-        line-height: 1.522em;
-    }
+footer {
+    background-color: var(--second-background-color);
+}
 
-        .index-h2 {
-            font-weight: 700;
-            font-size: 36px;
-            line-height: 1.166em;
-        }
-
-
-.index-h3
-{
+.index-h1 {
     font-weight: 700;
-        font-size: 14px;
-        line-height: 1.1428em;
+    font-size: 44px;
+    line-height: 1.522em;
+    color: var(--button1-color);
+    background-color: var(--second-background-color);
+}
+
+.index-h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.166em;
+}
+
+
+.index-h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1428em;
 }
 
 .index-h4 {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.1875em;
-            color: var(--contact1-color);
+    color: var(--contact1-color);
 }
 
-.index-b
-{
+.index-b {
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.1875em;
-        color:var(--button-color);
+    font-size: 16px;
+    line-height: 1.1875em;
+    color: var(--button-color);
 }
 
-.index-span
-{
+.index-span {
     font-weight: 400;
-        font-size: 14px;
-        line-height: 1.7142em;
+    font-size: 14px;
+    line-height: 1.7142em;
+}
+
+.team
+{
+    background-color: var(--first-background-color);
+}
+
+.signedphotos > li
+{
+    background-color: var(--button1-color);
 }
