@@ -43,18 +43,35 @@
 
 .button {
     background-color: var(--first-background-color);
+    font-size: 16px;
+    line-height: 1.625em;
 }
 
 
-.button1:hover,
-.button1:focus {
+.button1-index:hover,
+.button1-index:focus {
     color: var(--link-color);
     cursor: pointer;
 }
 
-.button1 {
+.button1-portfolio:hover,
+.button1-portfolio:focus {
+    color: var(--link-color);
+    cursor: pointer;
+}
+
+.button1-index {
     background-color: var(--link-color);
     color: var(--button1-color);
+    font-size: 16px;
+    line-height: 1.875em;
+}
+
+.button1-portfolio {
+    background-color: var(--link-color);
+    color: var(--button1-color);
+    font-size: 16px;
+    line-height: 1.625em;
 }
 
 .link:hover,
