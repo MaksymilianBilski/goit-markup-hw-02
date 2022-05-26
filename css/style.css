@@ -30,6 +30,10 @@
     --second-background-color: #2F303A;
 }
 
+:root {
+    --third-background-color: #E5E5E5;
+}
+
 
 .button:hover,
 .button:focus {
@@ -37,8 +41,7 @@
     cursor: pointer;
 }
 
-.button
-{
+.button {
     background-color: var(--first-background-color);
 }
 
@@ -169,12 +172,15 @@ footer {
     background-color: var(--second-background-color);
 }
 
+.solutions {
+    background-color: var(--second-background-color);
+}
+
 .index-h1 {
     font-weight: 700;
     font-size: 44px;
     line-height: 1.522em;
     color: var(--button1-color);
-    background-color: var(--second-background-color);
 }
 
 .index-h2 {
@@ -210,12 +216,22 @@ footer {
     line-height: 1.7142em;
 }
 
-.team
-{
+.team {
     background-color: var(--first-background-color);
 }
 
-.signedphotos > li
-{
+.signedphotos>li {
     background-color: var(--button1-color);
+}
+
+.about {
+    background-color: var(--third-background-color);
+}
+
+.signed-photos2>li {
+    color: #ffffff;
+}
+
+.signed-photos3>li {
+    color: #ffffff;
 }
