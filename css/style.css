@@ -37,7 +37,6 @@
 
 .button:hover,
 .button:focus {
-    color: var(--button1-color);
     cursor: pointer;
 }
 
@@ -47,16 +46,9 @@
     line-height: 1.625em;
 }
 
-
-.button1-index:hover,
-.button1-index:focus {
-    color: var(--link-color);
-    cursor: pointer;
-}
-
 .button1-portfolio:hover,
 .button1-portfolio:focus {
-    color: var(--link-color);
+    color: var(--button1-color);
     cursor: pointer;
 }
 
@@ -65,18 +57,13 @@
     color: var(--button1-color);
     font-size: 16px;
     line-height: 1.875em;
+    cursor: pointer;
 }
 
 .button1-portfolio {
     background-color: var(--link-color);
-    color: var(--button1-color);
     font-size: 16px;
     line-height: 1.625em;
-}
-
-.link:hover,
-.link:focus {
-    color: var(--link-color);
 }
 
 .link {
@@ -90,18 +77,18 @@
 }
 
 .link2 {
-    color: var(--link-color);
     text-decoration: none;
+    color: inherit;
+}
+
+.portfolio-link2 {
+    text-decoration: none;
+    color: var(--link-color);
 }
 
 body {
     font-family: Roboto, Raleway, sans-serif;
     color: #212121;
-}
-
-.logo:hover,
-.logo:focus {
-    color: var(--link-color);
 }
 
 .logo {
@@ -110,7 +97,22 @@ body {
     line-height: 1.1923em;
     font-family: Raleway;
     text-decoration: none;
+    color: inherit;
+}
+
+.web-logo
+{
     color: var(--link-color);
+}
+
+.logo-bottom
+{
+        font-weight: 700;
+            font-size: 26px;
+            line-height: 1.1923em;
+            font-family: Raleway;
+            text-decoration: none;
+    color: var(--button1-color);
 }
 
 .navigation {
@@ -125,19 +127,19 @@ body {
     line-height: 1.1428em;
 }
 
-.contact:hover,
-.contact:focus {
-    color: var(--link-color);
-}
-
 .contact {
     color: var(--contact1-color);
     text-decoration: none;
 }
 
-.contact-1 {
+.index-contact1:hover,
+.index-contact1:focus{
+        color: var(--link-color);
+}
+
+.index-contact1{
     text-decoration: none;
-    color: var(--link-color);
+    color: var(--contact1-color);
 }
 
 .contact-1:hover,
@@ -156,9 +158,8 @@ body {
     text-decoration: none;
 }
 
-.contact-2:hover,
-.contact-2:focus {
-    color: var(--link-color);
+.portfolio-contact-2 {
+    color: var(--contact2-color);
 }
 
 .menu {
@@ -236,17 +237,11 @@ footer {
     color: var(--contact1-color);
 }
 
-.team {
-    background-color: var(--first-background-color);
-}
 
 .signedphotos>li {
     background-color: var(--button1-color);
 }
 
-.about {
-    background-color: var(--third-background-color);
-}
 
 .signed-photos2>li {
     color: #ffffff;
