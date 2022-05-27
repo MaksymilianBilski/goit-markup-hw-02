@@ -1,89 +1,27 @@
-:root {
-    --link-color: #2196F3;
-}
+/* --------- -I--N--D--E--X- --------- */
 
 :root {
-    --button-color: #212121;
+    --index-link-color: #2196F3;
 }
 
 :root {
-    --button1-color: #ffffff;
+    --index-first-bg: #2F303A;
 }
 
 :root {
-    --contactshover-color: green;
+    --index-font-color: #212121;
 }
 
 :root {
-    --contact1-color: #757575;
+    --index-first-font-color: #757575;
 }
 
 :root {
-    --contact2-color: rgba(255, 255, 255, 0.6);
+    --index-second-font-color: rgba(255, 255, 255, 0.6);
 }
 
 :root {
-    --first-bakcground-color: #F5F4FA;
-}
-
-:root {
-    --second-background-color: #2F303A;
-}
-
-:root {
-    --third-background-color: #E5E5E5;
-}
-
-
-.button:hover,
-.button:focus {
-    cursor: pointer;
-}
-
-.button {
-    background-color: var(--first-background-color);
-    font-size: 16px;
-    line-height: 1.625em;
-}
-
-.button1-portfolio:hover,
-.button1-portfolio:focus {
-    color: var(--button1-color);
-    cursor: pointer;
-}
-
-.button1-index {
-    background-color: var(--link-color);
-    color: var(--button1-color);
-    font-size: 16px;
-    line-height: 1.875em;
-    cursor: pointer;
-}
-
-.button1-portfolio {
-    background-color: var(--link-color);
-    font-size: 16px;
-    line-height: 1.625em;
-}
-
-.link {
-    text-decoration: none;
-    color: var(--button-color)
-}
-
-.link2:hover,
-.link2:focus {
-    color: var(--link-color);
-}
-
-.link2 {
-    text-decoration: none;
-    color: inherit;
-}
-
-.portfolio-link2 {
-    text-decoration: none;
-    color: var(--link-color);
+    --index-third-font-color: #ffffff;
 }
 
 body {
@@ -91,162 +29,305 @@ body {
     color: #212121;
 }
 
-.logo {
-    font-weight: 700;
+
+/* --- I-N-D-E-X- -H-E-A-D-E-R --- */
+.index-upper-logo {
+    color: inherit;
+    text-decoration: none;
     font-size: 26px;
-    line-height: 1.1923em;
+    line-height: 1.192em;
     font-family: Raleway;
+}
+
+.index-top-web {
+    color: var(--index-link-color);
+}
+
+.index-nav {
+    font-size: 14px;
+    line-height: 1.14em;
+    font-weight: 500;
+}
+
+.index-blue-link {
     text-decoration: none;
     color: inherit;
 }
 
-.web-logo
-{
-    color: var(--link-color);
+.index-blue-link:hover,
+.index-blue-link:focus {
+    color: var(--index-link-color);
 }
 
-.logo-bottom
-{
-        font-weight: 700;
-            font-size: 26px;
-            line-height: 1.1923em;
-            font-family: Raleway;
-            text-decoration: none;
-    color: var(--button1-color);
+.index-link {
+    text-decoration: none;
+    color: inherit;
 }
 
-.navigation {
-    font-weight: 500;
+.index-header-contacts a {
     font-size: 14px;
-    line-height: 1.1428em;
-}
-
-.contacts1 {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.1428em;
-}
-
-.contact {
-    color: var(--contact1-color);
+    line-height: 1.14em;
+    color: var(--index-first-font-color);
     text-decoration: none;
 }
 
-.index-contact1:hover,
-.index-contact1:focus{
-        color: var(--link-color);
+.index-header-contacts a:hover[href="mailto:info@devstudio.com"],
+.index-header-contacts a:focus[href="mailto:info@devstudio.com"] {
+    color: var(--index-link-color);
 }
 
-.index-contact1{
-    text-decoration: none;
-    color: var(--contact1-color);
-}
+/* --- I-N-D-E-X- -H-E-A-D-E-R --- */
 
-.contact-1:hover,
-.contact-1:focus {
-    color: var(--link-color);
-}
 
-.contacts2 {
-    line-height: 1.7142em;
-    font-size: 14px;
-    font-weight: 400;
-}
-
-.contact-2 {
-    color: var(--contact2-color);
-    text-decoration: none;
-}
-
-.portfolio-contact-2 {
-    color: var(--contact2-color);
-}
-
-.menu {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.625em;
-}
-
-.signedphotos h2 {
-    font-size: 18px;
-    line-height: 2em;
-    font-weight: 700;
-}
-
-.signedphotos span {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.875em;
-    color: var(--contact1-color);
-}
-
-address {
-    line-height: 1.7142em;
-    font-size: 14px;
-    font-weight: 400;
-    color: var(--button1-color);
-}
-
-footer {
-    background-color: var(--second-background-color);
-}
-
-.solutions {
-    background-color: var(--second-background-color);
+/* --- I-N-D-E-X- -M-A-I-N --- */
+.index-main-header {
+    background-color: var(--index-first-bg);
 }
 
 .index-h1 {
     font-weight: 700;
     font-size: 44px;
-    line-height: 1.522em;
-    color: var(--button1-color);
+    color: var(--index-third-font-color);
+    line-height: 1.36em;
 }
 
-.index-h2 {
+.index-button {
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.875em;
     font-weight: 700;
+    color: var(--index-third-font-color);
+    background-color: var(--index-link-color);
+}
+
+.index-loremipsum h3 {
+    font-size: 14px;
+    line-height: 1.142em;
+}
+
+.index-loremipsum p {
+    font-size: 14px;
+    line-height: 1.714em;
+    color: var(--index-first-font-color);
+}
+
+.index-about>h2 {
     font-size: 36px;
     line-height: 1.166em;
 }
 
+.index-team>h2 {
+    font-size: 36px;
+    line-height: 1.166em;
+}
 
-.index-h3 {
-    font-weight: 700;
+.index-team h4 {
+    font-size: 16px;
+    line-height: 1.1875em;
+}
+
+.index-team p {
+    font-size: 16px;
+    line-height: 1.1875em;
+    color: var(--index-first-font-color);
+}
+
+/* --- I-N-D-E-X- -M-A-I-N --- */
+
+/* --- I-N-D-E-X- -F-O-O-T-E-R --- */
+.index-bottom-logo {
+    color: var(--index-third-font-color);
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.192em;
+    font-family: Raleway;
+}
+
+.index-bottom-web {
+    color: var(--index-link-color);
+
+}
+
+footer {
+    background-color: var(--index-first-bg);
+}
+
+address {
+    color: var(--index-third-font-color);
+    font-size: 14px;
+    line-height: 1.714em;
+}
+
+.index-footer-contacts a {
+    font-size: 14px;
+    line-height: 1.714em;
+    color: var(--index-second-font-color);
+    text-decoration: none;
+}
+
+/* --- I-N-D-E-X- -F-O-O-T-E-R --- */
+
+/* --------- -I--N--D--E--X- --------- */
+
+
+
+/* --------- -P--O--R--T--F--O--L--I--O- --------- */
+
+:root {
+    --portfolio-link-color: #2196F3;
+}
+
+:root {
+    --portfolio-first-bg: #2F303A;
+    ;
+}
+
+:root {
+    --portfolio-second-bg: #E5E5E5;
+}
+
+:root {
+    --portfolio-third-bg: #F5F4FA;
+}
+
+:root {
+    --portfolio-first-font-color: #757575;
+}
+
+:root {
+    --portfolio-second-font-color: rgba(255, 255, 255, 0.6);
+}
+
+:root {
+    --portfolio-third-font-color: #ffffff;
+}
+
+
+
+/* --- -P-O-R-T-F-O-L-I-O- -H-E-A-D-E-R --- */
+.portfolio-upper-logo {
+    color: inherit;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.192em;
+    font-family: Raleway;
+}
+
+.portfolio-upper-web {
+    color: var(--portfolio-link-color);
+}
+
+.portfolio-blue-link {
+    color: inherit;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.142em;
+    font-weight: 500;
+    color: var(--portfolio-link-color);
+}
+
+.portfolio-link {
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    line-height: 1.142em;
+    font-weight: 500;
+}
+
+.portfolio-header-contacts {
     font-size: 14px;
     line-height: 1.1428em;
+    font-weight: 500;
 }
 
-.index-h4 {
+.portfolio-header-contacts a {
+    font-size: 14px;
+    line-height: 1.1428em;
+    font-weight: 500;
+    color: var(--portfolio-first-font-color);
+    text-decoration: none;
+}
+
+/* --- -P-O-R-T-F-O-L-I-O- -H-E-A-D-E-R --- */
+
+
+/* --- -P-O-R-T-F-O-L-I-O- -M-A-I-N --- */
+.portfolio-main-header {
+    background-color: var(--portfolio-second-bg);
+}
+
+.portfolio-first-button {
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.625em;
+    background-color: var(--portfolio-link-color);
+}
+
+.portfolio-first-button:hover,
+.portfolio-first-button:focus {
+    color: var(--portfolio-third-font-color);
+}
+
+.portfolio-button {
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.625em;
+    background-color: var(--portfolio-third-bg);
+}
+
+.portfolio-signedphotos h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2em;
+}
+
+.portfolio-signedphotos p {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.1875em;
-    color: var(--contact1-color);
+    line-height: 1.875em;
+    color: var(--portfolio-first-font-color);
 }
 
-.index-b {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.1875em;
-    color: var(--button-color);
+/* --- -P-O-R-T-F-O-L-I-O- -M-A-I-N --- */
+
+/* --- -P-O-R-T-F-O-L-I-O- -F-O-O-T-E-R --- */
+.portfolio-bottom-logo {
+    color: var(--portfolio-third-font-color);
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.192em;
+    font-family: Raleway;
 }
 
-.index-span {
+.portfolio-bottom-web {
+    color: var(--portfolio-link-color);
+}
+
+footer {
+    background-color: var(--portfolio-first-bg);
+}
+
+address {
+    color: var(--portfolio-third-font-color);
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.7142em;
-    color: var(--contact1-color);
+    line-height: 1.714em;
 }
 
-
-.signedphotos>li {
-    background-color: var(--button1-color);
+.portfolio-footer-contacts a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714em;
+    color: var(--portfolio-second-font-color);
+    text-decoration: none;
 }
 
-
-.signed-photos2>li {
-    color: #ffffff;
+.portfolio-footer-contacts li:first-child {
+    text-decoration: underline;
 }
 
-.signed-photos3>li {
-    color: #ffffff;
-}
+/* --- -P-O-R-T-F-O-L-I-O- -F-O-O-T-E-R --- */
+
+/* --------- -P--O--R--T--F--O--L--I--O- --------- */
