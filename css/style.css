@@ -49,19 +49,14 @@ body {
     font-weight: 500;
 }
 
-.index-blue-link {
+.index-upper-link {
     text-decoration: none;
     color: inherit;
 }
 
-.index-blue-link:hover,
-.index-blue-link:focus {
+.index-upper-link:hover,
+.index-upper-link:focus {
     color: var(--index-link-color);
-}
-
-.index-link {
-    text-decoration: none;
-    color: inherit;
 }
 
 .index-header-contacts a {
@@ -75,7 +70,6 @@ body {
 .index-header-contacts a:focus[href="mailto:info@devstudio.com"] {
     color: var(--index-link-color);
 }
-
 /* --- I-N-D-E-X- -H-E-A-D-E-R --- */
 
 
@@ -167,7 +161,6 @@ address {
     color: var(--index-second-font-color);
     text-decoration: none;
 }
-
 /* --- I-N-D-E-X- -F-O-O-T-E-R --- */
 
 /* --------- -I--N--D--E--X- --------- */
@@ -237,6 +230,11 @@ address {
     font-weight: 500;
 }
 
+/* .portfolio-link:hover,
+.portfolio-link:focus{
+color: var(--portfolio-link-color);
+} */
+
 .portfolio-header-contacts {
     font-size: 14px;
     line-height: 1.1428em;
@@ -279,6 +277,12 @@ address {
     font-size: 16px;
     line-height: 1.625em;
     background-color: var(--portfolio-third-bg);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: var(--portfolio-third-font-color);
+    background-color: var(--portfolio-link-color);
 }
 
 .portfolio-signedphotos h2 {
