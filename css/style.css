@@ -50,6 +50,12 @@ body {
 }
 
 .index-upper-link {
+        font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 0.02em;
+            line-height: 1.142em;
+            text-decoration: none;
+            color: inherit;
     text-decoration: none;
     color: inherit;
 }
@@ -255,20 +261,6 @@ color: var(--portfolio-link-color);
 /* --- -P-O-R-T-F-O-L-I-O- -M-A-I-N --- */
 .portfolio-main-header {
     background-color: var(--portfolio-second-bg);
-}
-
-.portfolio-first-button {
-    font-weight: 500;
-    cursor: pointer;
-    font-size: 16px;
-    line-height: 1.625em;
-    background-color: var(--portfolio-third-bg);
-}
-
-.portfolio-first-button:hover,
-.portfolio-first-button:focus {
-    color: var(--portfolio-third-font-color);
-    background-color: var(--portfolio-link-color);
 }
 
 .portfolio-button {
