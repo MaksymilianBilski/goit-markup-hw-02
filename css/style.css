@@ -145,11 +145,11 @@ body {
 
 }
 
-footer {
+.index-footer {
     background-color: var(--index-first-bg);
 }
 
-address {
+.index-address {
     color: var(--index-third-font-color);
     font-size: 14px;
     line-height: 1.714em;
